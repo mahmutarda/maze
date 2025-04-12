@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maze</title>
+  <title>Labirent</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -13,8 +13,8 @@
 
     <div id="Message-Container">
       <div id="message">
-        <h1>Congratulations!</h1>
-        <p>You are done.</p>
+        <h1>Tebrikler!</h1>
+        <p>Başardın.</p>
         <p id="moves"></p>
         <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="Cool!" />
       </div>
@@ -24,10 +24,10 @@
     <div id="menu">
       <div class="custom-select">
         <select id="diffSelect">
-                  <option value="10">Easy</option>
-                  <option value="15">Medium</option>
-                  <option value="25">Hard</option>
-                  <option value="38">Extreme</option>                                      
+                  <option value="10">Kolay</option>
+                  <option value="15">Orta</option>
+                  <option value="25">Zor</option>
+                  <option value="38">Mega</option>                                      
               </select>
       </div>
       <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" />
